@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "0.0.0"
-let checksum = "checksum"
+let version = "1.0.0"
+let checksum = "e96f14ad34e8a245ed4a615ba71c249167eabc31066e19aaa47066987f63b3ac"
 
 let package = Package(
     name: "CrowPushSDK",
