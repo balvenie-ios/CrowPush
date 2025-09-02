@@ -3,19 +3,22 @@
 
 import PackageDescription
 
+let version = "0.0.0"
+let checksum = "checksum"
+
 let package = Package(
-    name: " CrowPushSDK",
+    name: "CrowPushSDK",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: " CrowPushSDK",
-            targets: [" CrowPushSDK"]),
+        .library(name: "CrowPushSDK", targets: ["CrowPushXCFramework"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: " CrowPushSDK"),
-
+        .binaryTarget(
+            name: "CrowPushXCFramework",
+            url: "https://github.com/balvenie-ios/CrowPush/releases/download/\(version)/CrowPush.xcframework.zip",
+            checksum: checksum
+        ),
     ]
 )
