@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE797E242E66CFB8005436A3 /* CrowPushSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CE797E232E66CFB8005436A3 /* CrowPushSDK */; };
+		CEC249F92E67105D00BA9E24 /* CrowPushSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CEC249F82E67105D00BA9E24 /* CrowPushSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE797E242E66CFB8005436A3 /* CrowPushSDK in Frameworks */,
+				CEC249F92E67105D00BA9E24 /* CrowPushSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				CE797E232E66CFB8005436A3 /* CrowPushSDK */,
+				CEC249F82E67105D00BA9E24 /* CrowPushSDK */,
 			);
 			productName = Example;
 			productReference = CE3F04D82E66CB05009A4AEF /* Example.app */;
@@ -114,7 +114,7 @@
 			mainGroup = CE3F04CF2E66CB05009A4AEF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				CE797E222E66CFB8005436A3 /* XCLocalSwiftPackageReference "../../CrowPushSDK" */,
+				CEC249F72E67105D00BA9E24 /* XCRemoteSwiftPackageReference "CrowPush" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE3F04D92E66CB05009A4AEF /* Products */;
@@ -351,16 +351,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		CE797E222E66CFB8005436A3 /* XCLocalSwiftPackageReference "../../CrowPushSDK" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../CrowPushSDK;
+/* Begin XCRemoteSwiftPackageReference section */
+		CEC249F72E67105D00BA9E24 /* XCRemoteSwiftPackageReference "CrowPush" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/balvenie-ios/CrowPush.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE797E232E66CFB8005436A3 /* CrowPushSDK */ = {
+		CEC249F82E67105D00BA9E24 /* CrowPushSDK */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = CEC249F72E67105D00BA9E24 /* XCRemoteSwiftPackageReference "CrowPush" */;
 			productName = CrowPushSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

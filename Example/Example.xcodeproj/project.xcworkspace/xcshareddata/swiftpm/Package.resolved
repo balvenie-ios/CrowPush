@@ -1,0 +1,15 @@
+{
+  "originHash" : "790681f4385e308e5f1f60cbf8187b92a9cb4d5326a14e244f0abea633008302",
+  "pins" : [
+    {
+      "identity" : "crowpush",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/balvenie-ios/CrowPush.git",
+      "state" : {
+        "revision" : "b9b6e94b46ccd6194c4a7b4492cf1cc234a2404e",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
