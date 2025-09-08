@@ -64,11 +64,3 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 Configure a custom URL Scheme for your project, and make sure to avoid conflicts with existing app variants.
 
 <img src="./Images/URLScheme專案設定.png" width="600">
-
-Then enter the URL Scheme in the crow dashboard.
-
-<img src="./Images/URLScheme後台設定.png" width="250">
-
-Example of adding new app in crow dashboard.
-
-<img src="./Images/新增馬甲Crow後台示意圖.png" width="250">
